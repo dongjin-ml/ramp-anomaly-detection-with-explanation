@@ -1,5 +1,5 @@
 
-FROM 763104351884.dkr.ecr.us-west-2.amazonaws.com/pytorch-training:2.1-gpu-py310
+FROM 763104351884.dkr.ecr.ap-northeast-2.amazonaws.com/pytorch-training:2.1-gpu-py310
 
 RUN pip install -U pip boto3 sagemaker
 
